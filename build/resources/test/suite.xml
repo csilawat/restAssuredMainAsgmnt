@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestExecution" parallel="classes" thread-count="1">
+    <listeners>
+        <listener class-name="utils.ExtentReporterNG"></listener>
+    </listeners>
+
+    <test name="TestExecution">
+        <classes>
+            <class name="com.qa.TaskTest"></class>
+            <class name="com.qa.UserTest"></class>
+<!--            <class name="com.qa."></class>-->
+<!--            <class name="com.qa.VerifyUser"></class>-->
+
+        </classes>
+    </test>
+
+</suite>
